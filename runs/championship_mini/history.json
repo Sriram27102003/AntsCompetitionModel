@@ -1,0 +1,99 @@
+{
+  "class": "mini",
+  "method": "bc",
+  "arch": "mini_trunk",
+  "spec": {
+    "name": "mini",
+    "max_bytes": 1048576,
+    "arch": "mini_trunk",
+    "channels": 64,
+    "blocks": 6,
+    "fraction": 0.9,
+    "target_params": 230149
+  },
+  "data": "/Users/sriram/Downloads/AntsCompitionModel/data/season_tactical_120k.jsonl.gz",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7152842040814498,
+      "train_acc": 0.7108870593538295,
+      "val_loss": 0.47978158987227004,
+      "val_acc": 0.8209289036021123,
+      "seconds": 651.7
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4020094975028294,
+      "train_acc": 0.8526214667486592,
+      "val_loss": 0.35061647154947534,
+      "val_acc": 0.8746748640340506,
+      "seconds": 655.2
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.31302965584401715,
+      "train_acc": 0.8879430172235326,
+      "val_loss": 0.29179365039056754,
+      "val_acc": 0.8959170804760779,
+      "seconds": 646.4
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.2642876044354839,
+      "train_acc": 0.9066146768688231,
+      "val_loss": 0.2529519747298461,
+      "val_acc": 0.911602427681879,
+      "seconds": 655.5
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.22875787319138363,
+      "train_acc": 0.9200297375932741,
+      "val_loss": 0.22418579783270365,
+      "val_acc": 0.9225880822889572,
+      "seconds": 653.4
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.19953124162958938,
+      "train_acc": 0.9311461517045576,
+      "val_loss": 0.21306416594057856,
+      "val_acc": 0.9267951446362418,
+      "seconds": 650.9
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.17495541961076158,
+      "train_acc": 0.9403988671975786,
+      "val_loss": 0.18986493663340712,
+      "val_acc": 0.9377118310081185,
+      "seconds": 653.5
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.15390446906552785,
+      "train_acc": 0.948665428620088,
+      "val_loss": 0.17954204822031958,
+      "val_acc": 0.9412981792385907,
+      "seconds": 653.1
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.13800523133186005,
+      "train_acc": 0.9548602506483428,
+      "val_loss": 0.17338820868924915,
+      "val_acc": 0.9447465909986601,
+      "seconds": 653.4
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.12808351429903295,
+      "train_acc": 0.9588578969321124,
+      "val_loss": 0.1722161958347084,
+      "val_acc": 0.9459486088121699,
+      "seconds": 652.7
+    }
+  ],
+  "engine_digest": "sha256:cd656bc84c1accec25106c035dece8cdac211e1e0f1a5aa6a2e7836c1cfc3bb4",
+  "device": "mps"
+}

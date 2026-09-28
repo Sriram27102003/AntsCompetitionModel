@@ -1,0 +1,59 @@
+{
+  "class": "mini",
+  "method": "bc",
+  "arch": "mini_trunk",
+  "spec": {
+    "name": "mini",
+    "max_bytes": 1048576,
+    "arch": "mini_trunk",
+    "channels": 64,
+    "blocks": 6,
+    "fraction": 0.9,
+    "target_params": 230149
+  },
+  "data": "/Users/sriram/Downloads/AntsCompitionModel/data/season_tactical_120k.jsonl.gz",
+  "epochs": [
+    {
+      "epoch": 11,
+      "train_loss": 0.16791564468446185,
+      "train_acc": 0.9425272059205957,
+      "val_loss": 0.18800148951692638,
+      "val_acc": 0.9381650508394419,
+      "seconds": 635.3
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.15916196098566293,
+      "train_acc": 0.9458813535296056,
+      "val_loss": 0.18376822512113236,
+      "val_acc": 0.9386379758808229,
+      "seconds": 646.8
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.14220786863483886,
+      "train_acc": 0.9525167324952554,
+      "val_loss": 0.18013154349079963,
+      "val_acc": 0.9415543469693387,
+      "seconds": 646.0
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.12332090839121895,
+      "train_acc": 0.9600158886043625,
+      "val_loss": 0.167550403581435,
+      "val_acc": 0.9488748325057145,
+      "seconds": 641.8
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.10842878192922216,
+      "train_acc": 0.965960347836019,
+      "val_loss": 0.16109923567934553,
+      "val_acc": 0.9515153306534248,
+      "seconds": 643.3
+    }
+  ],
+  "engine_digest": "sha256:cd656bc84c1accec25106c035dece8cdac211e1e0f1a5aa6a2e7836c1cfc3bb4",
+  "device": "mps"
+}

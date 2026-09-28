@@ -1,0 +1,14 @@
+{
+  "rows": 250000,
+  "ant_labels": 4299893,
+  "episodes": 254,
+  "reasons": {
+    "rank_stabilized": 156,
+    "extermination": 3,
+    "turn_limit": 95
+  },
+  "mean_best_score": 3.35,
+  "seconds": 328.9,
+  "rows_per_second": 760,
+  "bytes": 75432899
+}

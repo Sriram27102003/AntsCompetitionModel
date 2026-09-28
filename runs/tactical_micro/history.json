@@ -1,0 +1,66 @@
+{
+  "class": "micro",
+  "method": "bc",
+  "arch": "trunk",
+  "spec": {
+    "name": "micro",
+    "max_bytes": 131072,
+    "arch": "trunk",
+    "channels": 28,
+    "blocks": 3,
+    "target_params": 24001
+  },
+  "data": "/Users/sriram/Downloads/AntsCompitionModel/data/tactical_teacher.jsonl.gz",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.8943309199764944,
+      "train_acc": 0.6373938770999661,
+      "val_loss": 0.7258666872269336,
+      "val_acc": 0.7193982114023103,
+      "seconds": 162.8
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6789661795984779,
+      "train_acc": 0.7401345654394081,
+      "val_loss": 0.6284178639004991,
+      "val_acc": 0.7608837411501677,
+      "seconds": 153.7
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6087326473822202,
+      "train_acc": 0.7677862925323493,
+      "val_loss": 0.6039415768586787,
+      "val_acc": 0.7663178487144454,
+      "seconds": 155.3
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5674199263148041,
+      "train_acc": 0.7845564426346825,
+      "val_loss": 0.5530464151637507,
+      "val_acc": 0.7895447770463296,
+      "seconds": 154.7
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5404591054495631,
+      "train_acc": 0.7955160738244832,
+      "val_loss": 0.5421328309994206,
+      "val_acc": 0.7938454850329152,
+      "seconds": 155.4
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.5249770034664284,
+      "train_acc": 0.8019740317787402,
+      "val_loss": 0.524630846673399,
+      "val_acc": 0.8005527263693951,
+      "seconds": 156.1
+    }
+  ],
+  "engine_digest": "sha256:cd656bc84c1accec25106c035dece8cdac211e1e0f1a5aa6a2e7836c1cfc3bb4",
+  "device": "mps"
+}

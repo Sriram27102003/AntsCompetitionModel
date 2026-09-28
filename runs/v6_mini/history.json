@@ -1,0 +1,59 @@
+{
+  "class": "mini",
+  "method": "bc",
+  "arch": "mini_trunk",
+  "spec": {
+    "name": "mini",
+    "max_bytes": 1048576,
+    "arch": "mini_trunk",
+    "channels": 64,
+    "blocks": 6,
+    "fraction": 0.9,
+    "target_params": 230149
+  },
+  "data": "/Users/sriram/Downloads/AntsCompitionModel/data/v6_fused_120k.jsonl.gz",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.46425598095239434,
+      "train_acc": 0.8305062868886397,
+      "val_loss": 0.40157944248614397,
+      "val_acc": 0.8562081640132366,
+      "seconds": 345.5
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.37427845928858466,
+      "train_acc": 0.864577239356599,
+      "val_loss": 0.36538002003152253,
+      "val_acc": 0.8680650620331346,
+      "seconds": 339.5
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3357993331831514,
+      "train_acc": 0.8790513595470021,
+      "val_loss": 0.3394987735935329,
+      "val_acc": 0.8783266683194464,
+      "seconds": 333.7
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3079781542624256,
+      "train_acc": 0.8900555798616175,
+      "val_loss": 0.33271733320003155,
+      "val_acc": 0.8828969635562071,
+      "seconds": 337.4
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.29081109235997343,
+      "train_acc": 0.8966137465028605,
+      "val_loss": 0.3262915475770211,
+      "val_acc": 0.8847832882411909,
+      "seconds": 343.2
+    }
+  ],
+  "engine_digest": "sha256:cd656bc84c1accec25106c035dece8cdac211e1e0f1a5aa6a2e7836c1cfc3bb4",
+  "device": "mps"
+}

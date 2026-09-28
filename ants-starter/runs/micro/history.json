@@ -1,0 +1,42 @@
+{
+  "class": "micro",
+  "method": "bc",
+  "arch": "trunk",
+  "spec": {
+    "name": "micro",
+    "max_bytes": 131072,
+    "arch": "trunk",
+    "channels": 28,
+    "blocks": 3,
+    "target_params": 24001
+  },
+  "data": "/Users/vishnusankar/Documents/AntsCompitionModel/ants-starter/data/teacher.jsonl.gz",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0902991761676992,
+      "train_acc": 0.5260730996134807,
+      "val_loss": 0.7421869373457295,
+      "val_acc": 0.7264564169951818,
+      "seconds": 21.6
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5927624846904711,
+      "train_acc": 0.7864989489387673,
+      "val_loss": 0.533329571815525,
+      "val_acc": 0.8162505475251861,
+      "seconds": 19.8
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.4731307348060833,
+      "train_acc": 0.8378314233403404,
+      "val_loss": 0.4561428368757338,
+      "val_acc": 0.8484450284713096,
+      "seconds": 19.6
+    }
+  ],
+  "engine_digest": "sha256:cd656bc84c1accec25106c035dece8cdac211e1e0f1a5aa6a2e7836c1cfc3bb4",
+  "device": "mps"
+}

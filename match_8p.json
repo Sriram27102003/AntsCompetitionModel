@@ -1,0 +1,17 @@
+{
+  "game": "ants",
+  "vars": { "max_turns": 400 },
+  "rows": [
+    { "id": "test-v3-8p", "seed": 42, "map": "basic-xlarge-8p", "seat_count": 8,
+      "seats": [
+        { "seat": 0, "weights": "model.onnx", "manifest": "manifest.json", "label": "FatAss-v3" },
+        { "seat": 1, "weights": "ants-starter/models/micro-bc/model.onnx", "manifest": "ants-starter/models/micro-bc/manifest.json", "label": "micro-1" },
+        { "seat": 2, "weights": "ants-starter/models/micro-bc/model.onnx", "manifest": "ants-starter/models/micro-bc/manifest.json", "label": "micro-2" },
+        { "seat": 3, "weights": "ants-starter/models/micro-bc/model.onnx", "manifest": "ants-starter/models/micro-bc/manifest.json", "label": "micro-3" },
+        { "seat": 4, "weights": "ants-starter/models/micro-bc/model.onnx", "manifest": "ants-starter/models/micro-bc/manifest.json", "label": "micro-4" },
+        { "seat": 5, "weights": "ants-starter/models/micro-bc/model.onnx", "manifest": "ants-starter/models/micro-bc/manifest.json", "label": "micro-5" },
+        { "seat": 6, "weights": "ants-starter/models/micro-bc/model.onnx", "manifest": "ants-starter/models/micro-bc/manifest.json", "label": "micro-6" },
+        { "seat": 7, "weights": "ants-starter/models/micro-bc/model.onnx", "manifest": "ants-starter/models/micro-bc/manifest.json", "label": "micro-7" }
+      ] }
+  ]
+}

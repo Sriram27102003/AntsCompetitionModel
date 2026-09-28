@@ -1,0 +1,12 @@
+{
+  "rows": 10000,
+  "ant_labels": 93048,
+  "episodes": 4,
+  "reasons": {
+    "rank_stabilized": 4
+  },
+  "mean_best_score": 3.0,
+  "seconds": 5.4,
+  "rows_per_second": 1839,
+  "bytes": 819843
+}

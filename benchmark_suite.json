@@ -1,0 +1,164 @@
+{
+  "game": "ants",
+  "vars": {
+    "max_turns": 300
+  },
+  "rows": [
+    {
+      "id": "1v1-v4-vs-v2-tiny",
+      "seed": 42,
+      "map": "basic-tiny-2p",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/manifest.json",
+          "label": "FatAss-v4"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/manifest.json",
+          "label": "FatAss-v2"
+        }
+      ]
+    },
+    {
+      "id": "1v1-v4-vs-v2-cave",
+      "seed": 42,
+      "map": "season_maps/tiny-cave-2p-2h.json",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/manifest.json",
+          "label": "FatAss-v4"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/manifest.json",
+          "label": "FatAss-v2"
+        }
+      ]
+    },
+    {
+      "id": "1v1-v4-vs-v2-rooms",
+      "seed": 42,
+      "map": "season_maps/tiny-rooms-2p-1h.json",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/manifest.json",
+          "label": "FatAss-v4"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/manifest.json",
+          "label": "FatAss-v2"
+        }
+      ]
+    },
+    {
+      "id": "4p-ffa-medium",
+      "seed": 42,
+      "map": "basic-medium-4p",
+      "seat_count": 4,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/manifest.json",
+          "label": "FatAss-v4"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v3_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v3_mini/manifest.json",
+          "label": "FatAss-v3"
+        },
+        {
+          "seat": 2,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/manifest.json",
+          "label": "FatAss-v2"
+        },
+        {
+          "seat": 3,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/ants-starter/models/micro-bc/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/ants-starter/models/micro-bc/manifest.json",
+          "label": "micro-bc"
+        }
+      ]
+    },
+    {
+      "id": "4p-ffa-cave",
+      "seed": 42,
+      "map": "season_maps/small-cave-4p-2h.json",
+      "seat_count": 4,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/manifest.json",
+          "label": "FatAss-v4"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v3_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v3_mini/manifest.json",
+          "label": "FatAss-v3"
+        },
+        {
+          "seat": 2,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/manifest.json",
+          "label": "FatAss-v2"
+        },
+        {
+          "seat": 3,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/ants-starter/models/micro-bc/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/ants-starter/models/micro-bc/manifest.json",
+          "label": "micro-bc"
+        }
+      ]
+    },
+    {
+      "id": "4p-ffa-open",
+      "seed": 42,
+      "map": "season_maps/tiny-open-4p-1h.json",
+      "seat_count": 4,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v4_mini/manifest.json",
+          "label": "FatAss-v4"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v3_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v3_mini/manifest.json",
+          "label": "FatAss-v3"
+        },
+        {
+          "seat": 2,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/manifest.json",
+          "label": "FatAss-v2"
+        },
+        {
+          "seat": 3,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/ants-starter/models/micro-bc/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/ants-starter/models/micro-bc/manifest.json",
+          "label": "micro-bc"
+        }
+      ]
+    }
+  ]
+}

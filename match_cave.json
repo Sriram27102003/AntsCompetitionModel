@@ -1,0 +1,11 @@
+{
+  "game": "ants",
+  "vars": { "max_turns": 300 },
+  "rows": [
+    { "id": "test-cave", "seed": 42, "map": "season_maps/tiny-cave-2p-2h.json", "seat_count": 2,
+      "seats": [
+        { "seat": 0, "weights": "model.onnx", "manifest": "manifest.json", "label": "FatAss-v3" },
+        { "seat": 1, "weights": "ants-starter/models/micro-bc/model.onnx", "manifest": "ants-starter/models/micro-bc/manifest.json", "label": "micro-bc" }
+      ] }
+  ]
+}

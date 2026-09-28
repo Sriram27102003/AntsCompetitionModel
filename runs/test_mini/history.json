@@ -1,0 +1,26 @@
+{
+  "class": "mini",
+  "method": "bc",
+  "arch": "trunk",
+  "spec": {
+    "name": "mini",
+    "max_bytes": 1048576,
+    "arch": "trunk",
+    "channels": 60,
+    "blocks": 6,
+    "target_params": 196000
+  },
+  "data": "data/test_season.jsonl.gz",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.3697241475593134,
+      "train_acc": 0.32137179196002724,
+      "val_loss": 1.459451344975254,
+      "val_acc": 0.2793522267206478,
+      "seconds": 23.5
+    }
+  ],
+  "engine_digest": "sha256:cd656bc84c1accec25106c035dece8cdac211e1e0f1a5aa6a2e7836c1cfc3bb4",
+  "device": "mps"
+}

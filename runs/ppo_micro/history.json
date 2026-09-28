@@ -1,0 +1,51 @@
+{
+  "class": "micro",
+  "method": "ppo",
+  "reward": {
+    "score": 1.0,
+    "rival": 0.5,
+    "ants": 0.02,
+    "win": 1.0,
+    "gamma": 0.997,
+    "lam": 0.95
+  },
+  "amp": false,
+  "iters": [
+    {
+      "iter": 1,
+      "episodes": 0,
+      "mean_return": 0.0,
+      "policy": 0.15813915008657203,
+      "value": 0.00038553143953726655,
+      "entropy": 1.6050014293856092,
+      "clipped": 0.0,
+      "samples": 5731,
+      "seconds": 20.2,
+      "collect_seconds": 4.1
+    },
+    {
+      "iter": 2,
+      "episodes": 0,
+      "mean_return": 0.0,
+      "policy": 0.10005803643060339,
+      "value": 0.0006387200248982534,
+      "entropy": 1.6041533068606728,
+      "clipped": 0.0,
+      "samples": 5453,
+      "seconds": 15.0,
+      "collect_seconds": 2.6
+    },
+    {
+      "iter": 3,
+      "episodes": 0,
+      "mean_return": 0.0,
+      "policy": 0.07271022911125677,
+      "value": 0.0029819140061830215,
+      "entropy": 1.6037212827962315,
+      "clipped": 0.0,
+      "samples": 5295,
+      "seconds": 14.9,
+      "collect_seconds": 2.7
+    }
+  ]
+}

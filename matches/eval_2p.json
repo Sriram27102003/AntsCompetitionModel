@@ -1,0 +1,108 @@
+{
+  "game": "ants",
+  "vars": {
+    "max_turns": 300
+  },
+  "rows": [
+    {
+      "id": "vs-nano-bc",
+      "seed": 42,
+      "map": "basic-tiny-2p",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "../model.onnx",
+          "manifest": "../manifest.json",
+          "label": "our_model"
+        },
+        {
+          "seat": 1,
+          "weights": "../ants-starter/models/nano-bc/model.onnx",
+          "manifest": "../ants-starter/models/nano-bc/manifest.json",
+          "label": "nano-bc"
+        }
+      ]
+    },
+    {
+      "id": "vs-micro-bc",
+      "seed": 42,
+      "map": "basic-tiny-2p",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "../model.onnx",
+          "manifest": "../manifest.json",
+          "label": "our_model"
+        },
+        {
+          "seat": 1,
+          "weights": "../ants-starter/models/micro-bc/model.onnx",
+          "manifest": "../ants-starter/models/micro-bc/manifest.json",
+          "label": "micro-bc"
+        }
+      ]
+    },
+    {
+      "id": "vs-micro-percell",
+      "seed": 42,
+      "map": "basic-tiny-2p",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "../model.onnx",
+          "manifest": "../manifest.json",
+          "label": "our_model"
+        },
+        {
+          "seat": 1,
+          "weights": "../ants-starter/models/micro-percell/model.onnx",
+          "manifest": "../ants-starter/models/micro-percell/manifest.json",
+          "label": "micro-percell"
+        }
+      ]
+    },
+    {
+      "id": "vs-nano-bc-seed99",
+      "seed": 99,
+      "map": "basic-tiny-2p",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "../model.onnx",
+          "manifest": "../manifest.json",
+          "label": "our_model"
+        },
+        {
+          "seat": 1,
+          "weights": "../ants-starter/models/nano-bc/model.onnx",
+          "manifest": "../ants-starter/models/nano-bc/manifest.json",
+          "label": "nano-bc"
+        }
+      ]
+    },
+    {
+      "id": "vs-micro-bc-seed99",
+      "seed": 99,
+      "map": "basic-tiny-2p",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "../model.onnx",
+          "manifest": "../manifest.json",
+          "label": "our_model"
+        },
+        {
+          "seat": 1,
+          "weights": "../ants-starter/models/micro-bc/model.onnx",
+          "manifest": "../ants-starter/models/micro-bc/manifest.json",
+          "label": "micro-bc"
+        }
+      ]
+    }
+  ]
+}

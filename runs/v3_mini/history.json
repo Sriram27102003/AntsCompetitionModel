@@ -1,0 +1,35 @@
+{
+  "class": "mini",
+  "method": "bc",
+  "arch": "trunk",
+  "spec": {
+    "name": "mini",
+    "max_bytes": 1048576,
+    "arch": "trunk",
+    "channels": 48,
+    "blocks": 4,
+    "fraction": 0.7,
+    "target_params": 88805
+  },
+  "data": "/Users/sriram/Downloads/AntsCompitionModel/data/v3_season_120k.jsonl.gz",
+  "epochs": [
+    {
+      "epoch": 2,
+      "train_loss": 0.6236208827550582,
+      "train_acc": 0.7513126754744451,
+      "val_loss": 0.5850775347854612,
+      "val_acc": 0.7670420470447125,
+      "seconds": 606.0
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5361872598662392,
+      "train_acc": 0.7887960528863963,
+      "val_loss": 0.5163394482966172,
+      "val_acc": 0.7962379461013431,
+      "seconds": 607.5
+    }
+  ],
+  "engine_digest": "sha256:cd656bc84c1accec25106c035dece8cdac211e1e0f1a5aa6a2e7836c1cfc3bb4",
+  "device": "mps"
+}

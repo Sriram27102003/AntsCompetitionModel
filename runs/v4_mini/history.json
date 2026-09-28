@@ -1,0 +1,43 @@
+{
+  "class": "mini",
+  "method": "bc",
+  "arch": "trunk",
+  "spec": {
+    "name": "mini",
+    "max_bytes": 1048576,
+    "arch": "trunk",
+    "channels": 64,
+    "blocks": 4,
+    "fraction": 0.7,
+    "target_params": 156293
+  },
+  "data": "/Users/sriram/Downloads/AntsCompitionModel/data/v4_hill_raider_100k.jsonl.gz",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7964926917185519,
+      "train_acc": 0.6738998074450578,
+      "val_loss": 0.5721989884661078,
+      "val_acc": 0.7744534498285145,
+      "seconds": 830.3
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5124242309075712,
+      "train_acc": 0.8000167960697196,
+      "val_loss": 0.4608723619737129,
+      "val_acc": 0.8210132015098388,
+      "seconds": 812.8
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.41624066422977696,
+      "train_acc": 0.8392031264684064,
+      "val_loss": 0.41286637842048757,
+      "val_acc": 0.8404801594144584,
+      "seconds": 822.2
+    }
+  ],
+  "engine_digest": "sha256:cd656bc84c1accec25106c035dece8cdac211e1e0f1a5aa6a2e7836c1cfc3bb4",
+  "device": "mps"
+}

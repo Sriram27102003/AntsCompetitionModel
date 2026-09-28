@@ -1,0 +1,128 @@
+{
+  "game": "ants",
+  "vars": {
+    "max_turns": 350
+  },
+  "rows": [
+    {
+      "id": "duel-v6-vs-v2-tiny",
+      "seed": 42,
+      "map": "basic-tiny-2p",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v6_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v6_mini/manifest.json",
+          "label": "FatAss-v6"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/manifest.json",
+          "label": "FatAss-v2"
+        }
+      ]
+    },
+    {
+      "id": "duel-v6-vs-v2-rooms",
+      "seed": 42,
+      "map": "season_maps/tiny-rooms-2p-1h.json",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v6_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v6_mini/manifest.json",
+          "label": "FatAss-v6"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/manifest.json",
+          "label": "FatAss-v2"
+        }
+      ]
+    },
+    {
+      "id": "duel-v6-vs-v5-tiny",
+      "seed": 42,
+      "map": "basic-tiny-2p",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v6_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v6_mini/manifest.json",
+          "label": "FatAss-v6"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v5_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v5_mini/manifest.json",
+          "label": "FatAss-v5"
+        }
+      ]
+    },
+    {
+      "id": "duel-v6-vs-v5-rooms",
+      "seed": 42,
+      "map": "season_maps/tiny-rooms-2p-1h.json",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v6_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v6_mini/manifest.json",
+          "label": "FatAss-v6"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v5_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v5_mini/manifest.json",
+          "label": "FatAss-v5"
+        }
+      ]
+    },
+    {
+      "id": "duel-v5-vs-v2-tiny",
+      "seed": 42,
+      "map": "basic-tiny-2p",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v5_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v5_mini/manifest.json",
+          "label": "FatAss-v5"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/manifest.json",
+          "label": "FatAss-v2"
+        }
+      ]
+    },
+    {
+      "id": "duel-v5-vs-v2-rooms",
+      "seed": 42,
+      "map": "season_maps/tiny-rooms-2p-1h.json",
+      "seat_count": 2,
+      "seats": [
+        {
+          "seat": 0,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/v5_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/v5_mini/manifest.json",
+          "label": "FatAss-v5"
+        },
+        {
+          "seat": 1,
+          "weights": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/model.onnx",
+          "manifest": "/Users/sriram/Downloads/AntsCompitionModel/models/championship_mini/manifest.json",
+          "label": "FatAss-v2"
+        }
+      ]
+    }
+  ]
+}

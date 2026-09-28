@@ -1,0 +1,42 @@
+{
+  "class": "mini",
+  "size_metric_bytes": 468384,
+  "class_max_bytes": 1048576,
+  "class_target_bytes": 943718,
+  "fill_of_cap": 0.4467,
+  "artifact_bytes": 467454,
+  "manifest_bytes": 930,
+  "params": 230255,
+  "nodes": 58,
+  "opset": 17,
+  "operators": [
+    "Cast",
+    "Concat",
+    "Constant",
+    "Conv",
+    "Relu",
+    "Slice"
+  ],
+  "adapter_ops_max": 208423,
+  "adapter_ops_budget": 1000000,
+  "infer_us_max": 48820,
+  "deadline_share_ms": 1000.0,
+  "share_used": 0.0488,
+  "target_fraction": 0.9,
+  "engine_digest": "sha256:cd656bc84c1accec25106c035dece8cdac211e1e0f1a5aa6a2e7836c1cfc3bb4",
+  "weights_hash": "sha256:5d28cb9eec7505d265c94631c346ba1f96659b82da7516f9a7009d889eb69d02",
+  "manifest_hash": "sha256:386b842387ebbd760268812e9233a009a39c62cdc66127c5da7ce452b1019dcf",
+  "arch": "MiniTrunk",
+  "reach_cells": 15,
+  "dilations": [
+    [
+      1,
+      2,
+      4,
+      4,
+      2,
+      1,
+      1
+    ]
+  ]
+}
