@@ -1,0 +1,78 @@
+=== *-2p-*
+
+96 games in 221s
+v11w+safe+hill     seats   48  sole first  67%  ants@25  12.9  ants@50  20.2
+v10e+safe+hill     seats   47  sole first  57%  ants@25  12.9  ants@50  17.5
+strong             seats   46  sole first  80%  ants@25  13.6  ants@50  20.3
+clone-TigerAnts    seats   51  sole first   0%  ants@25  12.6  ants@50  11.0
+points (per game: +2 a hill razed, -1 a hill lost):
+  v11w+safe+hill     score  2.56  razed 0.85  lost 0.33  razed nothing  33%  first raze turn    71  game length   77
+  v10e+safe+hill     score  1.91  razed 0.64  lost 0.45  razed nothing  43%  first raze turn    98  game length   80
+  strong             score  2.80  razed 0.93  lost 0.22  razed nothing  20%  first raze turn    69  game length   70
+  clone-TigerAnts    score  0.00  razed 0.00  lost 1.31  razed nothing 100%  first raze turn   nan  game length   68
+endings: rank_stabilized 90, lone_survivor 6
+head to head (ahead / tied / behind):
+  clone-TigerAnts    vs strong               0 /   0 /  17
+  clone-TigerAnts    vs v10e+safe+hill       0 /   0 /  17
+  clone-TigerAnts    vs v11w+safe+hill       0 /   0 /  17
+  strong             vs clone-TigerAnts     17 /   0 /   0
+  strong             vs v10e+safe+hill      13 /   0 /   1
+  strong             vs v11w+safe+hill       7 /   0 /   8
+  v10e+safe+hill     vs clone-TigerAnts     17 /   0 /   0
+  v10e+safe+hill     vs strong               1 /   0 /  13
+  v10e+safe+hill     vs v11w+safe+hill       9 /   0 /   7
+  v11w+safe+hill     vs clone-TigerAnts     17 /   0 /   0
+  v11w+safe+hill     vs strong               8 /   0 /   7
+  v11w+safe+hill     vs v10e+safe+hill       7 /   0 /   9
+=== *-4p-*
+
+96 games in 1135s
+v11w+safe+hill     seats   96  sole first  31%  ants@25  17.4  ants@50  20.0
+v10e+safe+hill     seats   96  sole first  21%  ants@25  16.5  ants@50  16.9
+strong             seats   96  sole first  42%  ants@25  17.0  ants@50  20.2
+clone-TigerAnts    seats   96  sole first   0%  ants@25  12.6  ants@50   9.7
+points (per game: +2 a hill razed, -1 a hill lost):
+  v11w+safe+hill     score  4.46  razed 1.79  lost 0.91  razed nothing  22%  first raze turn   180  game length  260
+  v10e+safe+hill     score  2.44  razed 1.00  lost 1.34  razed nothing  48%  first raze turn   140  game length  260
+  strong             score  5.10  razed 2.09  lost 0.86  razed nothing  24%  first raze turn   164  game length  260
+  clone-TigerAnts    score  0.02  razed 0.01  lost 1.78  razed nothing  99%  first raze turn    16  game length  260
+endings: rank_stabilized 83, turn_limit 7, domination 5, lone_survivor 1
+head to head (ahead / tied / behind):
+  clone-TigerAnts    vs strong               0 /  17 /  79
+  clone-TigerAnts    vs v10e+safe+hill       1 /  37 /  58
+  clone-TigerAnts    vs v11w+safe+hill       0 /  14 /  82
+  strong             vs clone-TigerAnts     79 /  17 /   0
+  strong             vs v10e+safe+hill      62 /   3 /  31
+  strong             vs v11w+safe+hill      50 /   3 /  43
+  v10e+safe+hill     vs clone-TigerAnts     58 /  37 /   1
+  v10e+safe+hill     vs strong              31 /   3 /  62
+  v10e+safe+hill     vs v11w+safe+hill      28 /   7 /  61
+  v11w+safe+hill     vs clone-TigerAnts     82 /  14 /   0
+  v11w+safe+hill     vs strong              43 /   3 /  50
+  v11w+safe+hill     vs v10e+safe+hill      61 /   7 /  28
+=== *-6p-*
+
+96 games in 4060s
+v11w+safe+hill     seats  145  sole first  18%  ants@25  18.8  ants@50  19.8
+v10e+safe+hill     seats  145  sole first  19%  ants@25  17.1  ants@50  19.7
+strong             seats  143  sole first  24%  ants@25  18.0  ants@50  21.5
+clone-TigerAnts    seats  143  sole first   0%  ants@25  14.8  ants@50  12.4
+points (per game: +2 a hill razed, -1 a hill lost):
+  v11w+safe+hill     score  4.83  razed 2.11  lost 1.57  razed nothing  28%  first raze turn   320  game length  551
+  v10e+safe+hill     score  4.32  razed 1.86  lost 1.54  razed nothing  23%  first raze turn   316  game length  621
+  strong             score  5.55  razed 2.37  lost 1.21  razed nothing  19%  first raze turn   263  game length  604
+  clone-TigerAnts    score  0.08  razed 0.04  lost 2.08  razed nothing  96%  first raze turn   347  game length  504
+endings: rank_stabilized 64, turn_limit 26, domination 5, lone_survivor 1
+head to head (ahead / tied / behind):
+  clone-TigerAnts    vs strong               1 /  38 / 174
+  clone-TigerAnts    vs v10e+safe+hill       0 /  29 / 163
+  clone-TigerAnts    vs v11w+safe+hill       1 /  48 / 167
+  strong             vs clone-TigerAnts    174 /  38 /   1
+  strong             vs v10e+safe+hill     117 /  19 /  80
+  strong             vs v11w+safe+hill     101 /  28 /  63
+  v10e+safe+hill     vs clone-TigerAnts    163 /  29 /   0
+  v10e+safe+hill     vs strong              80 /  19 / 117
+  v10e+safe+hill     vs v11w+safe+hill      97 /  33 /  89
+  v11w+safe+hill     vs clone-TigerAnts    167 /  48 /   1
+  v11w+safe+hill     vs strong              63 /  28 / 101
+  v11w+safe+hill     vs v10e+safe+hill      89 /  33 /  97

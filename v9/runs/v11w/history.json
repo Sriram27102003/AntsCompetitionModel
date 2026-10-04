@@ -1,0 +1,41 @@
+{
+  "method": "bc (train_fast)",
+  "spec": {
+    "name": "mini",
+    "max_bytes": 1048576,
+    "arch": "mini_trunk",
+    "channels": 96,
+    "blocks": 6,
+    "target_params": 122000
+  },
+  "memory": true,
+  "shards": [
+    "packed/dagger1-mixed.npz",
+    "packed/dagger1-self.npz",
+    "packed/dagger2-mixed.npz",
+    "packed/dagger2-self.npz",
+    "packed/strong-11.npz",
+    "packed/strong-12.npz",
+    "packed/strong-champ.npz",
+    "packed/strong-relabel.npz"
+  ],
+  "init": "runs/v10e/best.pt",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4189199366818335,
+      "train_acc": 0.85606056288549,
+      "val_loss": 0.37273977587981894,
+      "val_acc": 0.8650030564563755,
+      "seconds": 6080.5
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.36725185344893463,
+      "train_acc": 0.8740030983831825,
+      "val_loss": 0.3383688684153233,
+      "val_acc": 0.8778781630869864,
+      "seconds": 5925.4
+    }
+  ]
+}
